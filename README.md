@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Liberty 쇼핑몰 웹페이지
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[~~https://liberty52.com/~~](https://liberty52.com/) (서비스 종료)
 
-## Available Scripts
+## 기술 스택
 
-In the project directory, you can run:
+#### FE
 
-### `npm start`
+- React, javascript
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### NETWORK
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- axios
 
-### `npm test`
+#### STYLING
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- styled-component, mui-material + mui-joy
 
-### `npm run build`
+## 담당 백로그
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 공통 컴포넌트
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+|  #  |     이름      |                       이미지                        |
+| :-: | :-----------: | :-------------------------------------------------: |
+|  1  |     버튼      |      ![button](./readme/component/button.png)       |
+|  2  | 텍스트 입력창 |     ![text input](./readme/component/input.gif)     |
+|  3  |   체크박스    |    ![checkbox](./readme/component/checkbox.gif)     |
+| 4-1 |     헤더      |      ![header](./readme/component/header.png)       |
+| 4-2 | 헤더(모바일)  |   ![header mobile](./readme/component/header.gif)   |
+|  6  |  이미지버튼   | ![image button](./readme/component/imageButton.png) |
+|  7  | 이미지 입력창 |  ![image input](./readme/component/imageInput.gif)  |
+|  8  |     모달      |       ![modal](./readme/component/modal.png)        |
+|  9  |  라디오 버튼  |    ![radio button](./readme/component/radio.gif)    |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 페이지
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+|  #  |      이름      |                        이미지                         |
+| :-: | :------------: | :---------------------------------------------------: |
+|  1  |      메인      |        ![메인 페이지](./readme/page/main.png)         |
+|  2  |     로그인     |       ![로그인 페이지](./readme/page/login.png)       |
+|  3  |    회원가입    |     ![회원가입 페이지](./readme/page/signup.png)      |
+|  4  |      주문      |        ![주문 페이지](./readme/page/order.png)        |
+|  5  |   주문 조회    |    ![주문 조회 페이지](./readme/page/inquiry.png)     |
+|  6  | 주문 상세 조회 |  ![주문 상세 조회 페이지](./readme/page/detail.png)   |
+|  7  |    리뷰 탭     |        ![리뷰 탭](./readme/page/reviewTab.png)        |
+|  8  |    소개 탭     |     ![소개 탭](./readme/page/productInfoTab.png)      |
+|  9  | 배송 정보 입력 |  ![배송 정보 입력 페이지](./readme/page/payment.png)  |
+| 10  |   공지 사항    |        ![공지 사항](./readme/page/notice.png)         |
+| 11  |   상품 선택    |        ![상품 선택](./readme/page/choose.png)         |
+| 12  | 리뷰 작성 모달 | ![리뷰 작성 모달](./readme/component/reviewModal.png) |
